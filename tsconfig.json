@@ -1,0 +1,44 @@
+{
+  "compilerOptions": {
+    "jsxFactory": "h",
+    "noErrorTruncation": true,
+    "noImplicitAny": true,
+    "suppressImplicitAnyIndexErrors": false,
+    "strictNullChecks": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": false,
+    "noImplicitThis": false,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+    "removeComments": false,
+    "preserveConstEnums": true,
+    "sourceMap": true,
+    "allowJs": false,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "target": "es2015",
+    "module": "es2015",
+    "moduleResolution": "node",
+    "jsx": "react",
+    "lib": [
+      "es5", "es6", "es7", "es2017", "dom"
+    ],
+    "declaration": true,
+    "baseUrl": ".",
+    "outDir": "dist",
+    "rootDir": ".",
+    "paths": {
+      "~/*": ["src/*"]
+    }
+  },
+  "include": ["src/**/*"],
+  "exclude": [
+    "build",
+    "scripts",
+    "node_modules",
+    "dist",
+    "web/webpack.config.ts"
+  ]
+}
